@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/lawyer/static/js/main.b55df3b7.js",
+    "index.html": "/lawyer/index.html",
+    "main.b55df3b7.js.map": "/lawyer/static/js/main.b55df3b7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b55df3b7.js"
+  ]
+}
