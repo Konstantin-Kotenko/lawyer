@@ -11,7 +11,7 @@ export const Header = styled.header`
   -webkit-box-align: center;
   align-items: center;
   padding: 8px 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   color: rgb(255, 255, 255);
   background-color: rgba(38, 43, 62, 0.5);
   box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px,

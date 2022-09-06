@@ -25,11 +25,13 @@ const List = styled.ul`
 const Item = styled.li`
   list-style: none;
   :not(:last-child) {
-    margin-right: 10px;
+    margin-right: 50px;
   }
 `;
 
 const Navigation = styled.nav`
+  align-items: center;
+  justify-content: center;
   align-content: space-between;
   width: 1200px;
 `;
@@ -37,6 +39,31 @@ const Navigation = styled.nav`
 const SocialList = styled.ul`
   display: flex;
   margin-left: auto;
+`;
+
+const SocialItem = styled.li`
+  list-style: none;
+  :not(:last-child) {
+    margin-right: 15px;
+  }
+`;
+
+const Logo = styled.h1`
+  padding-left: 40px;
+  margin-right: auto;
+`;
+
+const ServiceList = styled.ul`
+  display: flex;
+  align-items: start;
+`;
+
+const ServiceItem = styled.li`
+  list-style: none;
+  /* :not(:last-child) {
+    margin-right: 50px;
+  } */
+  padding: 40px 30px;
 `;
 
 export const SharedLayout = () => {
@@ -62,32 +89,36 @@ export const SharedLayout = () => {
             </Item>
           </List>
           <SocialList>
-            <Item>
-              <a href="#">
-                <FaInstagram />
-              </a>
-            </Item>
-            <Item>
-              <a href="#">
-                <FaFacebookF />
-              </a>
-            </Item>
-            <Item>
-              <a href="#">
-                <FaLinkedinIn />
-              </a>
-            </Item>
-            <Item>
-              <a href="#">
-                <FaTwitter />
-              </a>
-            </Item>
-            <Item>
-              <a href="#">
-                <FaSkype />
-              </a>
-            </Item>
+            <SocialItem>
+              <FaInstagram />
+            </SocialItem>
+            <SocialItem>
+              <FaFacebookF />
+            </SocialItem>
+            <SocialItem>
+              <FaLinkedinIn />
+            </SocialItem>
+            <SocialItem>
+              <FaTwitter />
+            </SocialItem>
+            <SocialItem>
+              <FaSkype />
+            </SocialItem>
           </SocialList>
+        </Navigation>
+      </Header>
+      <Header>
+        <Navigation>
+          <Logo>Alah</Logo>
+          <ServiceList>
+            <ServiceItem>Home</ServiceItem>
+            <ServiceItem>Pages</ServiceItem>
+            <ServiceItem>Shop</ServiceItem>
+            <ServiceItem>Service</ServiceItem>
+            <ServiceItem>Projects</ServiceItem>
+            <ServiceItem>Blog</ServiceItem>
+            <ServiceItem>Contact</ServiceItem>
+          </ServiceList>
         </Navigation>
       </Header>
       <Container>
