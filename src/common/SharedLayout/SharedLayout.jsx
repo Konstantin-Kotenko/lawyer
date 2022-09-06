@@ -1,4 +1,7 @@
-import {Header} from '../Header/Header.styled';
+import { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
+import styled from 'styled-components';
+import { Header } from '../Header';
 
 const Container = styled.main`
   margin: 0 auto;
@@ -7,13 +10,33 @@ const Container = styled.main`
   grid-gap: 16px;
 `;
 
+const List = styled.ul`
+  display: flex;
+`;
+
+const Item = styled.li`
+  list-style: none;
+`;
+
 const SharedLayout = () => {
   return (
     <>
       <Header>
         <nav>
-          <Link to='/'>Home</Link>
-          <Link to='/movies'>Movies</Link>
+          <List>
+            <Item>
+              Call us : <a href="tel:0674259975">0674259975</a>
+            </Item>
+            <Item>
+              Email us:
+              <a href="mailto:kostya.kotenkoo@gmail.com">
+                kostya.kotenkoo@gmail.com
+              </a>
+            </Item>
+            <Item>
+              Our address:<a></a>
+            </Item>
+          </List>
         </nav>
       </Header>
       <Container>
