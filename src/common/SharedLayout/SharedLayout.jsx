@@ -60,9 +60,6 @@ const ServiceList = styled.ul`
 
 const ServiceItem = styled.li`
   list-style: none;
-  /* :not(:last-child) {
-    margin-right: 50px;
-  } */
   padding: 40px 30px;
 `;
 
