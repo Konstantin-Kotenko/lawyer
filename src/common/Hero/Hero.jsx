@@ -1,10 +1,11 @@
-
+import { HeroSection, HeroText,TitleHeroSection,HeroButton } from "./Hero.styled"
 
 export const Hero = () => {
     return (
-        <section>
-            <p>HERO</p>
-         <button>Free Consultation</button>   
-</section>        
+        <HeroSection>
+            <TitleHeroSection>HERO</TitleHeroSection>
+            <HeroText>Hey guest</HeroText>
+            <HeroButton>Free Consultation</HeroButton>   
+        </HeroSection>        
     )
 }
