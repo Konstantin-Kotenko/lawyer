@@ -9,6 +9,6 @@ export const HeroText=styled.p`
 margin-top:15px;
 `
 
-export const HEroButton=styled.button`
+export const HeroButton=styled.button`
 margin-top:40px;
 `
