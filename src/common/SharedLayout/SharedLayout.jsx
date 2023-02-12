@@ -1,9 +1,10 @@
 // import { Suspense } from 'react';
-// import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 // import styled from 'styled-components';
 import { Header } from '../Header/Header';
 import {Navigation} from '../Navigation/Navigation'
-import {Hero} from '../Hero/Hero'
+// import { Hero } from '../Hero/Hero';
+// import Home from '../../pages/Home'
 // const Container = styled.main`
 //   margin: 0 auto;
 //   padding: 0 20px;
@@ -38,7 +39,7 @@ export const SharedLayout = () => {
     <>
       <Header />
       <Navigation/>
-    <Hero/>
+      <Outlet/>
     </>
   );
 };

@@ -10,7 +10,7 @@ export const Navigation = () => {
                 <Link to='/'>LOGO</Link>
             </NavItem>
             <NavItem>
-                <FaHamburger />
+                <FaHamburger color='white'/>
             </NavItem>
         </NavList>
         )

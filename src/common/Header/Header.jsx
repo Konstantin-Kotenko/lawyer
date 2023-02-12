@@ -35,10 +35,15 @@ margin-top: 15px;
 
 const SocialItem = styled.li`
   list-style: none;
+  text-decoration: none;
+  color: white;
   :not(:last-child) {
     margin-right: 15px;
   }
 `;
+const SocialItemLink =styled.a`
+  color: white;
+`
 
 export const Header = () => {
     return (
@@ -46,17 +51,17 @@ export const Header = () => {
         <Navigation>
           <List>
             <Item>
-              Call us : <a href="tel:0674259975">0674259975</a>
+              Call us : <SocialItemLink href="tel:0674259975">0674259975</SocialItemLink>
             </Item>
             <Item>
-              Email us : <a href="mailto:kostya.kotenkoo@gmail.com">
+              Email us : <SocialItemLink href="mailto:kostya.kotenkoo@gmail.com">
                 kostya.kotenkoo@gmail.com
-              </a>
+              </SocialItemLink>
             </Item>
             <Item>
-              Our address : <a href="https://www.google.com/maps/dir/50.3871031,30.2423264/Pushcha-Vodytsya,+Kyiv,+02000/@50.4630456,30.1598745,11z/data=!3m1!4b1!4m18!1m7!3m6!1s0x472b2d7cbab263ab:0xcd17a7b8c2df72a9!2sPushcha-Vodytsya,+Kyiv,+02000!3b1!8m2!3d50.5392207!4d30.3544038!4m9!1m1!4e1!1m5!1m1!1s0x472b2d7cbab263ab:0xcd17a7b8c2df72a9!2m2!1d30.3544038!2d50.5392207!3e2">
+              Our address : <SocialItemLink href="https://www.google.com/maps/dir/50.3871031,30.2423264/Pushcha-Vodytsya,+Kyiv,+02000/@50.4630456,30.1598745,11z/data=!3m1!4b1!4m18!1m7!3m6!1s0x472b2d7cbab263ab:0xcd17a7b8c2df72a9!2sPushcha-Vodytsya,+Kyiv,+02000!3b1!8m2!3d50.5392207!4d30.3544038!4m9!1m1!4e1!1m5!1m1!1s0x472b2d7cbab263ab:0xcd17a7b8c2df72a9!2m2!1d30.3544038!2d50.5392207!3e2">
                 Placessssssssssssssssssssssssssssssssssssss
-              </a>
+              </SocialItemLink>
             </Item>
           </List>
           <SocialList>
