@@ -57,5 +57,5 @@ margin-top: 5px;
 `
 
 export const AboutContainer = styled.div`
-padding:90px 0 91px 0;
+padding:90px 15px;
 `

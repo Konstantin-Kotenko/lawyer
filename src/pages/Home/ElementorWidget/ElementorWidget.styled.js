@@ -2,16 +2,10 @@ import Img from "../../../img/feature-info-col-bg.jpg";
 import styled from "styled-components";
 
 
-export const ElementorWidgetWrapper=styled.div`
-padding:10px;
-`
 export const ElementorWidgetImage = styled.div`
+background: url(${Img});
 padding: 55px 35px;
-color:rgb(104,118,147);
-background-size: cover;
-background-image: -webkit-linear-gradient(90deg, #262b3e 62%, #c9b38c 96%, #c9b38c 97%, #c9b38c 100%), url(${Img});
-/* background-image: -webkit-linear-gradient(90deg, #262b3e 62%, #c9b38c 96%, #c9b38c 97%, #c9b38c 100%); */
-opacity: 0.95;
+position: relative; 
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -21,10 +15,10 @@ export const ElementorWidgetTitle=styled.h4`
 
 font-size: 1.375rem;
     /* color: #fff; */
-    color: black;
+    font-size: 1.375rem;
+    color: #fff;
     line-height: 1.5em;
-    font-family: "Roboto Slab", serif;
-    font-weight: 300;
+    margin: 0 0 1.5em;
 `
 
 export const ElementorWidgetLink = styled.a`

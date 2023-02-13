@@ -1,20 +1,17 @@
-// import { Header } from '../common/Header/Header';
-// import {Navigation} from '../common/Navigation/Navigation'
 import { About } from './About/About';
 import { Hero } from './Hero/Hero';
-import { HomePageContainer } from './Home.styled';
 import { ElementorWidget } from './ElementorWidget/ElementorWidget';
+import { MainContainer } from './Home.styled';
 
 const Home = () => {
   return (
-    <HomePageContainer>
-      {/* <Header />
-      <Navigation /> */}
-      <Hero />
+<>
+  <Hero />
+    <MainContainer>   
       <About />
       <ElementorWidget/>
-    </HomePageContainer>
-    
+    </MainContainer>
+</>    
   );
 };
 

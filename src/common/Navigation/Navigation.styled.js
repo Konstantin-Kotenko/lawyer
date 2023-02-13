@@ -2,13 +2,11 @@ import styled from 'styled-components'
 import { NavLink } from 'react-router-dom';
 
 export const Link = styled(NavLink)`
-width: 20px;
-height:20px;
 color: white;
 `
 
 export const NavList = styled.ul`
-background-color: rgba(38, 43, 62, 0.5);
+background-color: black;
 display: flex;
 justify-content: space-between;
 `
