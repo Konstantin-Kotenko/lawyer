@@ -23,7 +23,8 @@ margin-top: 19px;
 `
 
 export const AboutImage = styled.img`
-margin-top:50px;
+display: block;
+margin:50px auto 0;
 `
 
 export const AboutSecondText = styled.p`
@@ -57,5 +58,5 @@ margin-top: 5px;
 `
 
 export const AboutContainer = styled.div`
-padding:90px 15px;
+padding:90px 0;
 `

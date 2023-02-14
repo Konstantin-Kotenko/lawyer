@@ -11,6 +11,7 @@ background-size: cover;
 background-position: center;
 `
 
+
 export const ElementorWidgetTitle=styled.h4`
 
 font-size: 1.375rem;
