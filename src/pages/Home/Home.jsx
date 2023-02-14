@@ -2,6 +2,7 @@ import { About } from './About/About';
 import { Hero } from './Hero/Hero';
 import { ElementorWidget } from './ElementorWidget/ElementorWidget';
 import { MainContainer } from './Home.styled';
+import { Service } from './Service/Service';
 
 const Home = () => {
   return (
@@ -9,7 +10,8 @@ const Home = () => {
   <Hero />
     <MainContainer>   
       <About />
-      <ElementorWidget/>
+        <ElementorWidget />
+      <Service/>  
     </MainContainer>
 </>    
   );

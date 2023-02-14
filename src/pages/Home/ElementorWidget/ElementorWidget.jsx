@@ -1,16 +1,59 @@
-import { ElementorWidgetImage,ElementorWidgetTitle,ElementorWidgetLink} from "./ElementorWidget.styled"
+import {  ElementorWidgetItem, ElementorWidgetWrpper } from "./ElementorWidget.styled"
+import { FaBusinessTime } from 'react-icons/fa';
 
 export const ElementorWidget = () => {
     return (
-        <>
-            <ElementorWidgetImage>
-                <ElementorWidgetTitle>
-                    Some few stpes that you need to get the best services from juristic
-                </ElementorWidgetTitle>
-                <ElementorWidgetLink>
-                    Contact with us
-                </ElementorWidgetLink>
-            </ElementorWidgetImage>
-        </>
+        <ElementorWidgetWrpper>
+            <ul>
+                    <ElementorWidgetItem>
+                    <div>
+                        <FaBusinessTime/>
+                        <h3>
+                            Skilled Attorneys
+                        </h3>
+                        <p>
+                            Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
+
+                        </p>
+                    </div>
+                    </ElementorWidgetItem>
+                    <ElementorWidgetItem>
+                    <div>
+                        <FaBusinessTime/>
+                        <h3>
+                            Skilled Attorneys
+                        </h3>
+                        <p>
+                            Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
+
+                        </p>
+                    </div>
+                </ElementorWidgetItem>
+                <ElementorWidgetItem>
+                    <div>
+                        <FaBusinessTime/>
+                        <h3>
+                            Skilled Attorneys
+                        </h3>
+                        <p>
+                            Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
+
+                        </p>
+                    </div>
+                </ElementorWidgetItem>
+                <ElementorWidgetItem>
+                    <div>
+                        <FaBusinessTime/>
+                        <h3>
+                            Skilled Attorneys
+                        </h3>
+                        <p>
+                            Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
+
+                        </p>
+                    </div>
+                </ElementorWidgetItem>
+            </ul>
+        </ElementorWidgetWrpper>
     )
 }

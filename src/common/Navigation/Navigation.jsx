@@ -1,6 +1,4 @@
-import {
-FaHamburger
-} from 'react-icons/fa';
+import { BiMenu } from "react-icons/bi";
 import {Link, NavList, NavItem} from './Navigation.styled'
 
 export const Navigation = () => {
@@ -10,7 +8,7 @@ export const Navigation = () => {
                 <Link to='/'>LOGO</Link>
             </NavItem>
             <NavItem>
-                <FaHamburger color='white'/>
+                <BiMenu color="White"/>
             </NavItem>
         </NavList>
         )
