@@ -7,13 +7,15 @@ margin: 0 -10px;
 `
 
 export const ServiceImage=styled.div`
+display: block;
+width: 100%;
+min-height: 430px;
 background-image:linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(${Img});
 background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
-width: 100%;
-height: 430px;
-display: block;
+
+
 position: relative;
 background: linear-gradient(top, transparent, #262b3e);
 /* padding: 50px 25px; */
