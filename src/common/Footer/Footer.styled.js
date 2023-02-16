@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterWrapper = styled.footer`
 background-color: black;
-height: 120px;
+padding: 10px;
 `
 export const SocialList = styled.ul`
 list-style: none;

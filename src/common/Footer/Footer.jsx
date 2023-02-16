@@ -7,6 +7,7 @@ import {
   FaInstagram,
 } from 'react-icons/fa';
 import { Link } from "../Navigation/Navigation.styled";
+import { Newsletter } from "../../components/Form/Newsletter/Newsletter";
 
 export const Footer = () => {
     return (
@@ -39,7 +40,10 @@ export const Footer = () => {
                     </SocialIconLink>
                 </SocialIcon>
                 </SocialList>
-                <Link to='/'>LOGO</Link>
+                <Link to='/' style={{
+                    display: 'block', textAlign: "center",
+                marginTop:'10px'}}>LOGO</Link>
+                <Newsletter/>
             </div>
         </FooterWrapper>
     )
