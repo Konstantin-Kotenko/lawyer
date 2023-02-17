@@ -13,3 +13,11 @@ border: none;
 border-radius: 4px;
 `
 
+export const Button = styled.button`
+background-color: white;
+color: white;
+:hover{
+    color: grey;
+    background-color: grey;
+}
+`

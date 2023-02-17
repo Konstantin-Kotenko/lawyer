@@ -1,11 +1,14 @@
 import {Formik}from 'formik'
 import { schemaFromNewsletter } from '../../../schema/schema'
-import { FormNewsletter, Input } from './Newsletter.styled'
+import {BiSend} from 'react-icons/bi'
+import { FormNewsletter, Input, Button } from './Newsletter.styled'
 
 export const Newsletter = () => {
 
-    const handleSubmit = ({email},{resetForm}) => {
-        
+    const handleSubmit = ({ email }, { resetForm }) => {
+        console.log(email)
+        console.log('hi')
+        resetForm()
     }
     return (
         <Formik
@@ -16,7 +19,14 @@ export const Newsletter = () => {
                 <p>Newsletter</p>
                 <Input type='email' name='email'
                 placeholder='email@com.ua'/>
+                <Button type="submit"><BiSend style={{
+                    fill: 'black',
+                    stroke:'black',
+                    // width: '100%', height: '100%'
+                }}
+                /></Button>
             </FormNewsletter>
+            
         </Formik>
     )
 }

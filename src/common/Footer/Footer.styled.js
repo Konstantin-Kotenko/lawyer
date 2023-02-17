@@ -30,7 +30,7 @@ color: black;
   :hover,
   :focus{
   color: white;
-  background-color: black;
+  background-color: #c9b38c;
   }
 
   `
