@@ -6,6 +6,9 @@ export const Navigation = () => {
         <NavList>
             <NavItem>
                 <Link to='/'>LOGO</Link>
+                <Link to='blog'>BLOG</Link>
+                <Link to='services'>Services</Link>
+                <Link to='contact'>Contact</Link>
             </NavItem>
             <NavItem>
                 <BiMenu color="White"/>
