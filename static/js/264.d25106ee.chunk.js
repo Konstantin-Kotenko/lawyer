@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklawyer=self.webpackChunklawyer||[]).push([[264],{264:function(e,n,r){r.r(n);var u=r(184);n.default=function(){return(0,u.jsx)(u.Fragment,{children:(0,u.jsx)("h2",{children:"SERVICES"})})}}}]);
+//# sourceMappingURL=264.d25106ee.chunk.js.map
