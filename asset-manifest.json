@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.js": "/lawyer/static/js/main.192eb7e3.js",
+    "main.js": "/lawyer/static/js/main.8f66ed7c.js",
     "static/js/420.c8ba5ac3.chunk.js": "/lawyer/static/js/420.c8ba5ac3.chunk.js",
-    "static/js/884.1d32def8.chunk.js": "/lawyer/static/js/884.1d32def8.chunk.js",
+    "static/js/884.9889a207.chunk.js": "/lawyer/static/js/884.9889a207.chunk.js",
     "static/js/277.41704d2c.chunk.js": "/lawyer/static/js/277.41704d2c.chunk.js",
-    "static/js/264.d25106ee.chunk.js": "/lawyer/static/js/264.d25106ee.chunk.js",
+    "static/js/890.6c851be7.chunk.js": "/lawyer/static/js/890.6c851be7.chunk.js",
     "static/js/617.c800b0f9.chunk.js": "/lawyer/static/js/617.c800b0f9.chunk.js",
     "static/js/355.30faf634.chunk.js": "/lawyer/static/js/355.30faf634.chunk.js",
     "static/js/705.43fe10e2.chunk.js": "/lawyer/static/js/705.43fe10e2.chunk.js",
     "static/js/445.9c0b089d.chunk.js": "/lawyer/static/js/445.9c0b089d.chunk.js",
     "static/media/slide-2-min.jpg": "/lawyer/static/media/slide-2-min.38ae853c1da4151b9e31.jpg",
+    "static/media/Philadelphia-Assault-Lawyer.jpg": "/lawyer/static/media/Philadelphia-Assault-Lawyer.0b5332e84f371bfa1c6c.jpg",
     "static/media/ceo-img-min.jpg": "/lawyer/static/media/ceo-img-min.4745b220f1c497de6417.jpg",
     "static/media/about-min.jpg": "/lawyer/static/media/about-min.d8fa2205c894b2ede5b5.jpg",
     "index.html": "/lawyer/index.html",
-    "main.192eb7e3.js.map": "/lawyer/static/js/main.192eb7e3.js.map",
+    "main.8f66ed7c.js.map": "/lawyer/static/js/main.8f66ed7c.js.map",
     "420.c8ba5ac3.chunk.js.map": "/lawyer/static/js/420.c8ba5ac3.chunk.js.map",
-    "884.1d32def8.chunk.js.map": "/lawyer/static/js/884.1d32def8.chunk.js.map",
+    "884.9889a207.chunk.js.map": "/lawyer/static/js/884.9889a207.chunk.js.map",
     "277.41704d2c.chunk.js.map": "/lawyer/static/js/277.41704d2c.chunk.js.map",
-    "264.d25106ee.chunk.js.map": "/lawyer/static/js/264.d25106ee.chunk.js.map",
+    "890.6c851be7.chunk.js.map": "/lawyer/static/js/890.6c851be7.chunk.js.map",
     "617.c800b0f9.chunk.js.map": "/lawyer/static/js/617.c800b0f9.chunk.js.map",
     "355.30faf634.chunk.js.map": "/lawyer/static/js/355.30faf634.chunk.js.map",
     "705.43fe10e2.chunk.js.map": "/lawyer/static/js/705.43fe10e2.chunk.js.map",
     "445.9c0b089d.chunk.js.map": "/lawyer/static/js/445.9c0b089d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.192eb7e3.js"
+    "static/js/main.8f66ed7c.js"
   ]
 }

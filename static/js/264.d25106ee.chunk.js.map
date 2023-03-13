@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/264.d25106ee.chunk.js","mappings":"wHAOA,UAPiB,WACb,OACI,+BACA,sCAEP,C","sources":["pages/Services/Services.jsx"],"sourcesContent":["const Services = () => {\n    return (\n        <>\n        <h2>SERVICES</h2></>\n    )\n}\n\nexport default Services;"],"names":[],"sourceRoot":""}
