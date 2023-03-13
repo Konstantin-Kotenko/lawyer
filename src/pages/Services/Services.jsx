@@ -1,8 +1,16 @@
+import { AllServices } from "./AllServices/AllServices";
+import { Container } from "../../components/Container/Container";
+
 const Services = () => {
     return (
         <>
-        <h2>SERVICES</h2></>
-    )
+            <Container>
+                <h2>SERVICES</h2>
+                <AllServices/>
+            
+            </Container>
+        </>
+        )
 }
 
 export default Services;

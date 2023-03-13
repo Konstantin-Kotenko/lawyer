@@ -3,6 +3,7 @@ import { ServiceWrapper, ServiceImage, ServiceInfoWrapper } from './Service.styl
 
 export const Service = () => {
     return (
+    <>
         <ServiceWrapper>
             <ServiceImage>
                 <ServiceInfoWrapper>
@@ -12,5 +13,6 @@ export const Service = () => {
                 </ServiceInfoWrapper>
             </ServiceImage>
         </ServiceWrapper>
+    </>
     )
 }

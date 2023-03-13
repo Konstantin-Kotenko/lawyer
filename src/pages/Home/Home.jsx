@@ -3,16 +3,19 @@ import { Hero } from './Hero/Hero';
 import { ElementorWidget } from './ElementorWidget/ElementorWidget';
 import { MainContainer } from './Home.styled';
 import { Service } from './Service/Service';
+import { Container } from '../../components/Container/Container';
 
 const Home = () => {
   return (
 <>
-  <Hero />
+<Container>
+<Hero />
     <MainContainer>   
       <About />
         <ElementorWidget />
       <Service/>  
     </MainContainer>
+</Container>
 </>    
   );
 };
