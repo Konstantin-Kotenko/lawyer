@@ -5,8 +5,12 @@ export const Link = styled(NavLink)`
 color: white;
 `
 
-export const NavigationWrapper = styled.div`
-padding: 15px;
+export const NavigationWrapper = styled.nav`
+    background-color: black;
+`
+
+export const Wrapper = styled.div`
+    padding: 15px;
 `
 
 export const NavList = styled.ul`

@@ -1,7 +1,7 @@
 import { Formik }from 'formik'
 import { schemaFromNewsletter } from '../../../schema/schema'
 import { BiSend } from 'react-icons/bi'
-import { FormNewsletter, Input, Button } from './Newsletter.styled'
+import { FormNewsletter, Input, Button, TitleNewsletter } from './Newsletter.styled'
 
 export const Newsletter = () => {
 
@@ -16,7 +16,9 @@ export const Newsletter = () => {
             onSubmit={handleSubmit}
         validationSchema={schemaFromNewsletter}>
             <FormNewsletter>
-                <p>Newsletter</p>
+                <TitleNewsletter>
+                    Newsletter
+                </TitleNewsletter>
                 <Input type='email' name='email'
                 placeholder='email@com.ua'/>
                 <Button type="submit"><BiSend style={{

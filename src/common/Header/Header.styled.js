@@ -74,10 +74,16 @@ export const SocialItem = styled.li`
   list-style: none;
   text-decoration: none;
   color: white;
+  cursor: pointer;
+  
   :not(:last-child) {
     margin-right: 15px;
   }
   
+  :hover,
+  :focus{
+  color: #c9b38c;
+  }
 
 `;
 export const SocialItemLink = styled.a`

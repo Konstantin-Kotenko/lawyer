@@ -6,8 +6,9 @@ background-image:url(${Img});
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
-width: 100%;
+max-width: 100%;
 height: 100%;
+
 `
 export const HeroWrapper = styled.div`
 padding: 90px 30px;

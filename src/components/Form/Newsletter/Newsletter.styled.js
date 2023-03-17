@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const FormNewsletter = styled(Form)`
 display: block;
-margin: 0 auto;
+/* margin: 0 auto; */
 text-align: center;
 `
 
@@ -20,4 +20,11 @@ color: white;
     color: grey;
     background-color: grey;
 }
+`
+
+export const TitleNewsletter = styled.p`
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+    vertical-align: middle;
 `

@@ -8,14 +8,15 @@ import { Container } from '../../components/Container/Container';
 const Home = () => {
   return (
 <>
-<Container>
-<Hero />
+  <Hero />
+  <Container>
+
     <MainContainer>   
       <About />
         <ElementorWidget />
       {/* <Service/>   */}
     </MainContainer>
-</Container>
+  </Container>
 </>    
   );
 };
