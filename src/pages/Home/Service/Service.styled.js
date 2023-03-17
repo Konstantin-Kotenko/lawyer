@@ -6,9 +6,10 @@ padding-bottom: 110px;
 margin: 0 -10px;
 `
 
-export const ServiceImage=styled.div`
+export const ServiceImage = styled.div`
+min-width: 320px;
 display: block;
-width: 100%;
+/* width: 100%; */
 min-height: 430px;
 background-image:linear-gradient(rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(${Img});
 background-size: contain;

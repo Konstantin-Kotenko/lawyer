@@ -1,6 +1,6 @@
-import {Formik}from 'formik'
+import { Formik }from 'formik'
 import { schemaFromNewsletter } from '../../../schema/schema'
-import {BiSend} from 'react-icons/bi'
+import { BiSend } from 'react-icons/bi'
 import { FormNewsletter, Input, Button } from './Newsletter.styled'
 
 export const Newsletter = () => {

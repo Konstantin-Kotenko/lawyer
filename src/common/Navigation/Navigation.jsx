@@ -1,9 +1,10 @@
 import { BiMenu } from "react-icons/bi";
-import {Link, NavList, NavItem} from './Navigation.styled'
+import {NavigationWrapper, Link, NavList, NavItem} from './Navigation.styled'
 
 export const Navigation = () => {
     return (
-        <NavList>
+        <NavigationWrapper>
+            <NavList>
             <NavItem>
                 <Link to='/'>LOGO</Link>
                 <Link to='blog'>BLOG</Link>
@@ -13,6 +14,7 @@ export const Navigation = () => {
             <NavItem>
                 <BiMenu color="White"/>
             </NavItem>
-        </NavList>
+            </NavList>
+        </NavigationWrapper>    
         )
 }
