@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/lawyer/static/js/main.2367fdd8.js",
-    "static/js/420.e78469d8.chunk.js": "/lawyer/static/js/420.e78469d8.chunk.js",
-    "static/js/768.b0221efe.chunk.js": "/lawyer/static/js/768.b0221efe.chunk.js",
+    "main.js": "/lawyer/static/js/main.6d68fc85.js",
+    "static/js/420.a19896d9.chunk.js": "/lawyer/static/js/420.a19896d9.chunk.js",
+    "static/js/768.cca810bf.chunk.js": "/lawyer/static/js/768.cca810bf.chunk.js",
     "static/js/277.41704d2c.chunk.js": "/lawyer/static/js/277.41704d2c.chunk.js",
     "static/js/890.e45db001.chunk.js": "/lawyer/static/js/890.e45db001.chunk.js",
     "static/js/617.c800b0f9.chunk.js": "/lawyer/static/js/617.c800b0f9.chunk.js",
@@ -13,9 +13,9 @@
     "static/media/Philadelphia-Assault-Lawyer.jpg": "/lawyer/static/media/Philadelphia-Assault-Lawyer.0b5332e84f371bfa1c6c.jpg",
     "static/media/about-min.jpg": "/lawyer/static/media/about-min.d8fa2205c894b2ede5b5.jpg",
     "index.html": "/lawyer/index.html",
-    "main.2367fdd8.js.map": "/lawyer/static/js/main.2367fdd8.js.map",
-    "420.e78469d8.chunk.js.map": "/lawyer/static/js/420.e78469d8.chunk.js.map",
-    "768.b0221efe.chunk.js.map": "/lawyer/static/js/768.b0221efe.chunk.js.map",
+    "main.6d68fc85.js.map": "/lawyer/static/js/main.6d68fc85.js.map",
+    "420.a19896d9.chunk.js.map": "/lawyer/static/js/420.a19896d9.chunk.js.map",
+    "768.cca810bf.chunk.js.map": "/lawyer/static/js/768.cca810bf.chunk.js.map",
     "277.41704d2c.chunk.js.map": "/lawyer/static/js/277.41704d2c.chunk.js.map",
     "890.e45db001.chunk.js.map": "/lawyer/static/js/890.e45db001.chunk.js.map",
     "617.c800b0f9.chunk.js.map": "/lawyer/static/js/617.c800b0f9.chunk.js.map",
@@ -24,6 +24,6 @@
     "445.9c0b089d.chunk.js.map": "/lawyer/static/js/445.9c0b089d.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.2367fdd8.js"
+    "static/js/main.6d68fc85.js"
   ]
 }
