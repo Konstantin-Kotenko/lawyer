@@ -27,13 +27,20 @@ display: flex;
 flex-wrap: wrap;
 margin-left: -15px;
 margin-right: -15px;
+justify-content: center;
+
 `
 
 export const Item = styled.li`
 position: relative;
 max-width: 340px;
-padding: 0 15px;
+padding: 15px;
 margin-bottom: 30px;
+border: 2px solid #c9b38c;
+
+@media (min-width: 992px){
+  margin: 20px;
+}
  /* :not(:last-child){
     margin-bottom: 30px;
 } */

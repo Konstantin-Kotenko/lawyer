@@ -1,59 +1,59 @@
-import {  ElementorWidgetItem, ElementorWidgetWrpper } from "./ElementorWidget.styled"
+import {  ElementorWidgetItem, ElementorWidgetWrpper, ElementorWidgetItemWrapper, ElementorWidgetList, ElementorWidgetTitle } from "./ElementorWidget.styled"
 import { FaBusinessTime } from 'react-icons/fa';
 
 export const ElementorWidget = () => {
     return (
-        <ElementorWidgetWrpper>
-            <ul>
+        <ElementorWidgetWrpper>            
+            <ElementorWidgetList>
                     <ElementorWidgetItem>
-                    <div>
+                    <ElementorWidgetItemWrapper>
                         <FaBusinessTime/>
-                        <h3>
+                        <ElementorWidgetTitle>
                             Skilled Attorneys
-                        </h3>
+                        </ElementorWidgetTitle>
                         <p>
                             Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
 
                         </p>
-                    </div>
+                    </ElementorWidgetItemWrapper>
                     </ElementorWidgetItem>
                     <ElementorWidgetItem>
-                    <div>
+                    <ElementorWidgetItemWrapper>
                         <FaBusinessTime/>
-                        <h3>
+                        <ElementorWidgetTitle>
                             Skilled Attorneys
-                        </h3>
+                        </ElementorWidgetTitle>
                         <p>
                             Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
 
                         </p>
-                    </div>
+                    </ElementorWidgetItemWrapper>
                 </ElementorWidgetItem>
                 <ElementorWidgetItem>
-                    <div>
+                    <ElementorWidgetItemWrapper>
                         <FaBusinessTime/>
-                        <h3>
+                        <ElementorWidgetTitle>
                             Skilled Attorneys
-                        </h3>
+                        </ElementorWidgetTitle>
                         <p>
                             Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
 
                         </p>
-                    </div>
+                    </ElementorWidgetItemWrapper>
                 </ElementorWidgetItem>
                 <ElementorWidgetItem>
-                    <div>
+                    <ElementorWidgetItemWrapper>
                         <FaBusinessTime/>
-                        <h3>
+                        <ElementorWidgetTitle>
                             Skilled Attorneys
-                        </h3>
+                        </ElementorWidgetTitle>
                         <p>
                             Muff that covered the whole of her lower arm towards the viewer gregor then turned to look out the window at the dull
 
                         </p>
-                    </div>
+                    </ElementorWidgetItemWrapper>
                 </ElementorWidgetItem>
-            </ul>
+            </ElementorWidgetList>
         </ElementorWidgetWrpper>
     )
 }
