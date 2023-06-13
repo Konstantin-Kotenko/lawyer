@@ -14,8 +14,8 @@ export const Wrapper = styled.div`
 `
 
 export const NavList = styled.ul`
+max-width: 1170px;
 margin: 0 auto;
-max-width: 1400px;
 background-color: black;
 display: flex;
 justify-content: space-between;

@@ -28,6 +28,13 @@ export const List = styled.ul`
 export const Item = styled.li`
   text-align:center;
   vertical-align: middle;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;  
+  color: #FFFFFF;
   
   @media (max-width: 991px){
     :not(:first-child){
@@ -46,7 +53,7 @@ export const Item = styled.li`
 export const Navigation = styled.div`
   align-items: center;
   justify-content: center;
-  max-width: 1400px;
+  max-width: 1170px;
   margin: 0 auto;
   
   @media (max-width: 991px){

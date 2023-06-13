@@ -91,7 +91,7 @@ export const AboutSeondSpan = styled.span`
 
 export const AboutContainer = styled.div`
     /* display: inline-block; */
-    max-width: 1400px;
+    /* max-width: 1400px; */
     /* margin: 0 auto; */
 
     padding: 90px 0;

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const ElementorWidgetWrpper = styled.div`
-    max-width: 1400px;
     padding: 0 15px 65px;
 `
 
 
 export const ElementorWidgetList = styled.ul`
     justify-content: center;
+    width: 100%;
     @media (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
@@ -16,7 +16,7 @@ export const ElementorWidgetList = styled.ul`
 `
 
 export const ElementorWidgetItemWrapper = styled.li`
-    max-width: 200px;
+    width: 100%;
     :not(:last-child){
         @media (max-width: 767px){
             margin-bottom: 30px;
@@ -38,7 +38,7 @@ export const ElementorWidgetItemWrapper = styled.li`
 export const ElementorWidgetItem = styled.div`
     /* padding: 75px 35px; */
     border: 2px solid #c9b38c;
-
+    max-width: 200px;
     @media (min-width: 380px){
     margin: 20px;
     }
@@ -54,5 +54,5 @@ export const ElementorWidgetTitle = styled.h3`
 text-align: center;
 justify-content: center;
 align-items: center;
-
+margin: 0 auto;
 `
